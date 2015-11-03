@@ -1,6 +1,6 @@
 var WebSocket = require('ws');
 var WebSocketServer = WebSocket.Server,
-    wss = new WebSocketServer({port: 8181});
+    wss = new WebSocketServer({port: 8182});
 var uuid = require('node-uuid');
 
 var clients = [];
